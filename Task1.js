@@ -1,23 +1,5 @@
-const proba = {a:1, b:2}
-
-
-
-function value (obj){
-  
-
+function printToConsole(obj) {
   for (let key in obj) {
-
-
-    if (obj.hasOwnProperty(key)) {
-
-
-      console.log(key, obj[key]);
-    } 
-   
-
+      console.log(`${key}: ${obj[key]}`)
+  }
 }
-
-  
-
-}
-value(proba);
